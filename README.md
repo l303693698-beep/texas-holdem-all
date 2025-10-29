@@ -1,19 +1,16 @@
-# 🎈 Blank app template
+使用指南：
 
-A simple Streamlit app template for you to modify!
+1. 安装依赖：
+   pip install -r requirements.txt
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+2. 运行程序：
+   streamlit run streamlit_app.py
 
-### How to run it on your own machine
+3. 浏览器会自动打开页面：
+   http://localhost:8501
 
-1. Install the requirements
+4. 输入手牌，例如：
+   Hero: As Ah
+   Villain: 2d 7c
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+5. 点击“开始计算”即可查看胜率。
